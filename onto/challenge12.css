@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 1300px;
+    height: 109vh;
+    background-color: hsl(0, 8%, 98%);
+    margin:40px 100px 40px 200px;
+}
+.one{
+    height: 600px;
+    width: 300px;
+    background-image: linear-gradient(to right top , rgb(120, 19, 160), rgb(202, 103, 202));
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+    margin: 0px 0px 10px 20px;
+}
+.two{
+    width: 280px;
+    height: 600px;
+    border: 8px solid #fff;
+    border-radius: 30px;
+    background-color: hsl(270, 20%, 96%);
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 8px 10px 6px rgb(0, 0, 0, 0.09);
+}
+#first{
+    width:35px ;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 40px 0px -10px 5px ;
+}
+.subone{
+    background-image: linear-gradient(to right top , rgb(120, 19, 160), rgb(202, 103, 202));
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 30px 10px 10px 10px ;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.2);
+    margin: 0px 0px 20px;
+}
+.subone i{
+    color: #fff;
+    font-size: 17px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+.subone i:hover{
+    color: ghostwhite;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.subone h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: -33px 0px 0px 68px;
+}
+.subone h1 span{
+    color:  hsl(266, 5%, 71%);
+    font-size: 16px;
+    font-weight: 300;
+}
+.three #one{
+    background-color: hsl(300, 1%, 84%);
+    width: 200px;
+    height: 36px;
+    border-radius: 15px;
+    padding: 2px 5px 2px 8px;
+    line-height: 16px;
+    color: hsl(276, 31%, 56%);
+    font-weight: 400;
+    margin: 0px 0px 10px 5px;
+}
+.three #two{
+    background-color: hsl(300, 1%, 84%);
+    width: 200px;
+    height: 36px;
+    border-radius: 15px;
+    padding: 2px 5px 2px 8px;
+    line-height: 16px;
+    color: hsl(276, 31%, 56%);
+    font-weight: 400;
+    margin: 0px 0px 10px 5px;
+}
+.three ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+}
+.three ul li{
+    list-style: none;
+}
+.three ul li img{
+    width: 45px;
+    height: 50px;
+    margin: 0px 5px 0px 0px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.three #three{
+    background-color: #fff;
+    width: 200px;
+    height: 36px;
+    border-radius: 10px;
+    padding: 2px 5px 2px 8px;
+    line-height: 16px;
+    font-weight: 400;
+    color: hsl(271, 15%, 43%);
+    margin: 3px 5px 5px 60px;
+}
+.three #four{
+    background-color: #fff;
+    width: 200px;
+    height: 26px;
+    border-radius: 10px;
+    padding: 5px 5px 2px 8px;
+    line-height: 16px;
+    font-weight: 400;
+    color: hsl(271, 15%, 43%);
+    margin: 2px 5px 5px 60px;
+}
+.three #five{
+    background-color: hsl(300, 1%, 84%);
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 2px 5px 2px 8px;
+    line-height: 16px;
+    color: hsl(276, 31%, 56%);
+    font-weight: 400;
+    margin: 10px 0px 10px 5px;
+}
+.three #six{
+    background-image:  linear-gradient(to right top , rgb(120, 19, 160), rgb(202, 103, 202));
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px 5px 2px 26px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0px 0px 10px 5px;
+}
+.three #circle-one{
+    position: absolute;
+    top: 78.5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin: 0px 8px 0px 5px;
+}
+.three #circle-two{
+    position: absolute;
+    top: 87%;
+    left: 5%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    margin: 0px 8px 0px 5px;
+}
+.three #seven{
+    background-image: linear-gradient(to right top , rgb(120, 19, 160), rgb(202, 103, 202));
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 5px 2px 26px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 2px 0px 10px 5px;
+}
+.three #eight{
+    width: 240px ;
+    height: 24px;
+    margin: 5px 0px 10px 5px;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 5px 4px 5px;
+}
+.three #eight:hover{
+    border: none;
+}
+.three i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.four{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.four h1{
+    color:hsl(271, 36%, 24%);
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.four p{
+    font-size: 16px ;
+    color: hsl(270, 7%, 64%);
+}
